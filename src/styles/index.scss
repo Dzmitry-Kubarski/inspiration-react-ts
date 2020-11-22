@@ -1,0 +1,93 @@
+/* ====================
+         GLOBAL
+   ==================== */
+
+   *,
+   *::after,
+   *::before {
+       box-sizing: border-box;
+   }
+   
+   html, 
+   body {
+       overflow-x: hidden;
+       margin: 0;
+       padding: 0;
+   }
+   
+   ul, li, ol{
+       list-style: none;    
+   }
+   
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+   
+   a {
+       text-decoration: none;
+       color: inherit;
+       font-family: inherit;
+       outline: 0;
+   }
+   
+   button {
+       border: none; 
+       background: transparent;
+       cursor: pointer;
+       padding: 0;
+       color: inherit;
+       font-family: inherit;
+       outline: 0;
+   }
+   
+   input {
+       outline: 0;
+   }
+   
+   body {
+       font-family: sans-serif;
+       font-weight: 400;
+       font-size: 16px;
+       color: #464852;
+   }
+   
+   ul,ol,li,h1,h2,h3,h4,h5,h6,p {
+       margin: 0;
+       padding: 0;
+   }
+   
+   .container {
+       width: 100%;
+       max-width: 1310px;
+       margin: 0 auto;
+       padding: 0 20px;
+       
+       @media (max-width: 460px) {
+           padding: 0 10px;   
+       }
+   }
+
+   .hidden {
+       display: none;
+   }
+
+   .loading {
+       text-align: center;
+   }
+
+
+  /* ====================
+             APP
+    ==================== */
+   
+@import './logo.scss';
+@import './loader.scss';
+@import './button.scss';
+@import './card.scss';
+@import './message.scss';
+@import './modal.scss';
+@import './form.scss';
+@import './header.scss';
+@import './gallery.scss';
+@import './dashboard.scss';

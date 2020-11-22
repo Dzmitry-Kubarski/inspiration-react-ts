@@ -1,0 +1,19 @@
+.dashboard {
+    height: calc(100vh - 94px);
+    background: url('../assets/dot-texture.png') repeat center white;
+    padding: 50px 0;
+
+    .message {
+        margin-top: 30px;
+    }
+
+    .cards {
+        margin-top: 30px;
+    }
+}
+
+.dashboard__title {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    margin-bottom: 30px;
+}

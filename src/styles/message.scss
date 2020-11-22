@@ -1,0 +1,39 @@
+.message {
+    border-radius: 4px;
+
+    &.danger {   
+        background-color: #feecf0;
+        
+        .message__body {
+            border-color: #f14668;
+            color: #cc0f35;
+        }
+    }
+
+    &.success {
+        background-color: #effaf3;
+
+        .message__body {
+            border-color: #48c774;
+            color: #257942;
+        }
+    }
+
+    &.info {
+        background-color: #eef6fc;
+
+        .message__body {
+            border-color: #3298dc;
+            color: #1d72aa;
+        }
+    }
+    
+}
+
+.message__body {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    color: #4a4a4a;
+    padding: 1.25em 1.5em;
+}

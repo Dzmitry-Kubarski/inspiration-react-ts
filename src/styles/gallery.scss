@@ -1,0 +1,18 @@
+.gallery {
+    height: calc(100vh - 94px);
+    background: url('../assets/dot-texture.png') repeat center white;
+    padding: 50px 0; 
+}
+
+.gallery__subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.gallery__title {
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
