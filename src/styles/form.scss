@@ -10,14 +10,12 @@
 
     input {
         width: 100%;
+        height: 54px;
         border-radius: 12px;
-
         background-color: #fff;
         border: 1px solid #dedeea;
         color: #3e3f5e;
         transition: border-color .2s ease-in-out;
-
-        height: 54px;
         padding: 0 18px;
     }
 
@@ -35,7 +33,8 @@
 }
 
 .form {
-    width: 485px;
+    width: 100%;
+    max-width: 485px;
     padding: 64px;
     border-radius: 12px;
     background-color: #fff;

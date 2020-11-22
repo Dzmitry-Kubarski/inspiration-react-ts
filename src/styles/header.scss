@@ -7,6 +7,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 760px) {
+        flex-direction: column;   
+    }
+}
+
+.header__menu {
+
+    @media (max-width: 760px) {
+        margin-top: 20px;
+        margin-bottom: 30px;  
+    }
 }
 
 .header__link {
@@ -20,6 +32,8 @@
 }
 
 .header__buttons {
+    display: flex;
+    align-items: center;
 
    .button {
         &:first-child {

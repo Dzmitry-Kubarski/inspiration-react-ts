@@ -3,6 +3,11 @@
    flex-wrap: wrap;
    margin-left: -15px; 
    margin-right: -15px;
+
+   @media (max-width: 550px) {
+        flex-direction: column;
+        align-items: center;   
+   }
 }
 
 .card {
@@ -14,6 +19,18 @@
     z-index: 999;
     margin: 0 15px;
     margin-bottom: 30px;
+
+    @media (max-width: 940px) {
+        max-width: calc(33.33333% - 30px);
+    }
+
+    @media (max-width: 620px) {
+        max-width: calc(50% - 30px);
+    }
+
+    @media (max-width: 550px) {
+        max-width: calc(100% - 30px);  
+    }
 }
 
 .card__content {
@@ -23,6 +40,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;
+
+    @media (max-width: 550px) {
+        height: 210px;   
+    }
 }
 
 .card__footer {

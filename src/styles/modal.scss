@@ -19,12 +19,20 @@
         .modal__control  {
             .button {
                 width: 48%;
+
+                @media (max-width: 520px) {
+                    min-width: auto;   
+                }
             }
         }
 
         .modal__content {
             background-color: #fff;
             padding: 50px;
+
+            @media (max-width: 520px) {
+                padding: 50px 15px;   
+            }
         }
     }
 
@@ -95,6 +103,21 @@
     flex-grow: 1;
     flex-shrink: 1;
     padding: 20px;
+
+    svg {
+
+        @media (max-width: 420px) {
+            max-width: 100%;
+            height: 90vw;   
+        }
+    }
+
+    button {
+
+        @media (max-width: 420px) {
+            min-width: auto;   
+        }
+    }
 }
 
 .modal__footer {  
