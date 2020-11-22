@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-const InspirationSvg = () => {
+const InspirationSvg: FC = () => {
      return (
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="500px"
                height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500">
